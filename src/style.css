@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+* {
+    transition: all .5s!important;
+}
+
+article.card-largura {
+    max-width: 18rem;
+}
+
+.imagem-carrossel {
+    height: 70vh;
+    object-fit: cover;
+    object-position: 0 90%;
+}
+
+.titulo-carrossel {
+    font-family: 'Pacifico', cursive;
+}
+
+
+p {
+    font-weight: bold;
+}
+
+a.botao-darkred,button.botao-darkred {
+    background-color: darkred;
+    color: white;
+}
+
+a.color-darkred {
+    color: darkred!important;
+    border-radius: 8px;
+}
+
+#navbarNav a:hover {
+    background-color: rgba(234, 234, 234, 0.818);
+}
+
+article.borda-cor-especial {
+    border-color: darkred;
+}
+
+#cards {
+    
+}
+
+.card-posicao-imagem {
+    height: 200px;
+    object-fit: cover;
+}
+
+.decoracaotitulo {
+    text-shadow: 1px 1px 1px black;
+}
